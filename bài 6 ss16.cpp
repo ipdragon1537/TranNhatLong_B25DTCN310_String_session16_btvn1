@@ -12,10 +12,11 @@ int main() {
     while (my_string[i] != '\0') {
         char ch = my_string[i];
         if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-            count++; // N?u là ch? cái, tang bi?n d?m lên 1
+            count++;
         }
         i++;
     }
     printf("So ky tu chu cai trong chuoi la: %d\n", count);
     return 0;
 }
+
