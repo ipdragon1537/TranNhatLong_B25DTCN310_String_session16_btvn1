@@ -23,11 +23,10 @@ int main() {
             specials++;
         }
     }
-
-    // In ra k?t qu?
     printf("So ky tu la chu cai: %d\n", letters);
     printf("So ky tu la chu so: %d\n", digits);
     printf("So ky tu dac biet: %d\n", specials);
 
     return 0;
 }
+
