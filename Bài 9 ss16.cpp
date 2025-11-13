@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100] = "hello world";
+    char ch;
+    printf("%s\n", str);
+    printf("Nhap ky tu can xoa: ");
+    scanf(" %c", &ch);
+    int i = 0, j = 0;
+    while (str[i] != '\0') {
+        if (str[i] != ch) {
+            str[j] = str[i];
+            j++;
+        }
+        i++;
+    }
+    str[j] = '\0';
+    printf("%s\n", str);   
+    return 0;
+}
